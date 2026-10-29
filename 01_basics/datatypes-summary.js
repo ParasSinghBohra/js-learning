@@ -39,3 +39,32 @@ const myFunction = function(){
 // console.log(typeof newObj);  // returns object
 // console.log(typeof userEmail);  // returns undefined
 // console.log(typeof fruit);  // returns Array
+
+
+//+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+// Stack(Primitive Type) , Heap(Non- Primitive Type)
+
+let myYoutubename = "Pahadi"
+
+let anotherName= myYoutubename
+
+anotherName = "Mechnical Care MSB"
+
+
+console.log(myYoutubename);
+console.log(anotherName);
+
+
+let userOne = {
+    email: "paras@google.com",
+    upi: "user@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email  = "paras@gmail.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
